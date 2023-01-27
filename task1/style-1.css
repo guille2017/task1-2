@@ -31,7 +31,7 @@ h2 {
 .logo{
   
   background-color: black;
-  background: url("/imagenes/Logo_Mighty_ducks-01.png");
+  background: url("./imagenes/Logo_Mighty_ducks-01.png");
   background-repeat: no-repeat;
   width: 400px;
   height:400px;
