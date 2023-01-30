@@ -1,66 +1,134 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+ 
 }
 
-header{
-  background: url("./imagenes/design1_image1.jpg");
-  height: 1000px;
-  background-size:cover;
+#banner{
+  width: 1925px;
+  height: 1200px;
+  background-image: url("./imagenes/hockey_2.jpg");
+  position: relative;
+  top: 0;
+  left: 0;
+  /*widows:100%;*/
+  /*height: calc(108vh - 50px);*/
   background-repeat: no-repeat;
- 
+  background-size: cover;
+  margin: 10px 10px 10px 10px;
+  padding: 300px 300px 1500px 300px;
+  
+  
+}
+
+#header{
+  height: 100%;
+  width: 100%;
+ /* background: white;*/
+  background-image: url("./imagenes/design1_image1.jpg");
+  background-repeat: no-repeat;
+  
+  
 }
 
 h1{
-  font-size: 80px;
-  color: azure;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  text-align: left;
-}
-
-h2 {
-  text-align: center;
+  font-family:cursive;
+  font-size:700%;
   color:white;
+  
+
+}
+
+#nav{
+  height: 10%;
   background: black;
-  height: 100px;
-  font-size: 50px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+  margin: 0.2em;
+  position: static;
+  
+
 }
 
-.logo{
-  
-  background-color: black;
-  background: url("./imagenes/Logo_Mighty_ducks-01.png");
+h2{
+  color:white;
+  font-family:cursive;
+  font-size: 500%;
+  position: static;
+  left: 7em;
+}
+
+#logo{
+  height: 50%;
+  width: 50%;
+ /* background: white;*/
+  background-image: url("./imagenes/Logo_Mighty_ducks-01.png");
   background-repeat: no-repeat;
-  width: 400px;
-  height:400px;
-
+  position: relative;
+  left: 90em;
+  bottom: 17em;    
 }
 
-img{
-  
-  width: 100px;
-  height:100px;
+#Menu a{
+  height: 15%;
+  width: 15%;
+  /*background: white;*/
+  color: cornflowerblue;
+   font-size: 180%;
+   font-family: cursive;
+   display: block;
+   position: relative;
+   left: 0.5em;
+   bottom: 22em;
+   margin: 4em;
+   
  
 }
+#section{
+  width: 1455px;
+  height: 700px;
+  /*background: white;*/
+  font-size: 180%;
+  font-family: cursive;
+  position: relative;
+  left: 15em;
+  bottom: 38em;
+  margin: 1em;
+    
+}
 
-.menu a{
-  color: cornflowerblue;
-  text-align: left;
-  display: block;
-  font-size: 60px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  
+h3{
+  font-size: 100%;
+  font-style: italic;
+}
+
+h2{
+  font-size: 500%;
+  font-family: cursive;
+  position: relative;
+  left: 9.5em;
+}
+pre{
+  font-family: cursive;
+ 
+}
+#imagen-2{
+  max-width: 50%;
+  min-height: 50%;
+  background-image: url("./imagenes/hockey_2.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+  left: 85em;
+  bottom: 70rem;
 }
 
 
-.content {
-
-  margin:0px 0px;
-  background: white;
-  padding: 30px 0;
-  text-align:left;
-  font-size:30px;
+#imagen-3{
+  max-width: 50%;
+  min-height: 50%;
+  background-image: url("./imagenes/hockey_3.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+  bottom: 109rem;
+  left: 1rem;
+ 
   
 }
